@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/caen_rfid_srl"
+        android:onClick="goToWeb"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banner" />
+    <ListView
+        android:id="@+id/reader_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15sp"
+        android:layout_weight="1">
+    <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+    </ListView>
+    <Button
+        android:id="@+id/add_reader_button"
+        style="@style/inventory_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="@string/add_reader_button" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mWViewMode">
+        <item >mW</item>
+        <item >dBm</item>
+    </string-array>
+    <string-array name="LinkProfile">
+        <item>DSB_ASK_FM0_TX10RX40</item><item >DSB_ASK_FM0_TX40RX40</item>
+        <item >DSB_ASK_FM0_TX40RX160</item>
+        <item >DSB_ASK_FM0_TX160RX400</item>
+        <item >DSB_ASK_M2_TX40RX160</item>
+        
+        <item >PR_ASK_M4_TX40RX250</item>
+        <item >PR_ASK_M4_TX40RX300</item>
+        <item >PR_ASK_M2_TX40RX250</item>
+        <item >DSB_ASK_M4_TX40RX256</item>
+    </string-array>
+    <string-array name="Session">
+        <item >S0</item>
+        <item >S1</item>
+        <item >S2</item>
+        <item >S3</item>
+    </string-array>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <string-array name="supported_reader_name">
+        <item >A528</item>
+        <item >A828BT</item>
+        <item >R4300P</item>
+    </string-array>
+    <string-array name="TagsTest">
+        <item >1v23132v12v112v2121313v1v</item>
+        <item >123123121223v332v313123v1313</item>
+    </string-array>
+    <string-array name="RWBank">
+        <item >RESERVED</item>
+        <item >EPC</item>
+        <item >TID</item>
+        <item >USER MEMORY</item>
+    </string-array>
+    <string-array name="lockBankArray">
+        <item >RESERVED(KILL PWD)</item>
+        <item >RESERVED(ACCESS PWD)</item>
+        <item >EPC</item>
+        <item >TID</item>
+        <item >USER</item>
+    </string-array>
+    <string-array name="lockActionArray">
+        <item >ACCESSIBLE</item>
+        <item >PERMANENT ACCESSIBLE</item>
+        <item >ACCESSIBLE ON SECURE</item>
+        <item >PERMANENT UNACCESSIBLE</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pwd_hex_char">8</integer>
+    <integer name="max_notes_line">8</integer>
+</resources>

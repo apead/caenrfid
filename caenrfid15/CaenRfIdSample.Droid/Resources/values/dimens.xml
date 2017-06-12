@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_margin">20dp</dimen>
+    <dimen name="group_margin">60dp</dimen>
+    <dimen name="statistic_margin">5dp</dimen>
+    <dimen name="table_margin">5dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="rt0005temperature">60dp</dimen>
+    <dimen name="rt0005alarmlabel">20dp</dimen>
+    <dimen name="rt0005_mk_sl_value">25dp</dimen>
+
+</resources>

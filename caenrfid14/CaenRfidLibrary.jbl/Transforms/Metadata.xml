@@ -1,0 +1,7 @@
+<metadata>
+  <remove-node path="/api/package[@name='com.caen.VCPSerialPort.driver']/class[@name='CAENRFIDCdcAcmSerialDriver.CdcAcmSerialPort']" />
+  <remove-node path="/api/package[@name='com.caen.VCPSerialPort.driver']/class[@name='CdcAcmSerialDriver.CdcAcmSerialPort']" />
+  <remove-node path="/api/package[@name='com.caen.VCPSerialPort.driver']/class[@name='Cp21xxSerialDriver.Cp21xxSerialPort']" />
+  <remove-node path="/api/package[@name='com.caen.VCPSerialPort.driver']/class[@name='FtdiSerialDriver.FtdiSerialPort']" />
+  <remove-node path="/api/package[@name='com.caen.VCPSerialPort.driver']/class[@name='ProlificSerialDriver']" /> 
+</metadata>

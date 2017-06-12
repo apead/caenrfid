@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:contentDescription="@string/banner"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banner" />
+    <LinearLayout
+        android:id="@+id/command_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="@dimen/statistic_margin"
+        android:layout_marginRight="@dimen/statistic_margin"
+        android:background="@drawable/default_border">
+        <TextView
+            android:id="@+id/total_found"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/total_found"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/total_found_num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/inventory_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/command_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_margin="@dimen/statistic_margin"
+        android:background="@drawable/default_border">
+    <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+    </ListView>
+</RelativeLayout>

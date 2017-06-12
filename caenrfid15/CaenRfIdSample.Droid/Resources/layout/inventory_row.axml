@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inventory_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+    <TextView
+        android:id="@+id/inventory_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:textSize="17sp"
+        android:typeface="monospace" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/inventory_item_counter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/inventory_item_antenna"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="monospace" />
+
+</LinearLayout>
